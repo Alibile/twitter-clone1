@@ -1,11 +1,15 @@
 import React from "react";
-
+import styled from "styled-components";
 const Right = () => {
   return (
-    <div>
+    <Container>
       <h1>rightside</h1>
-    </div>
+    </Container>
   );
 };
 
+const Container = styled.div`
+  padding-right: 15px;
+  margin-top: -20px;
+`;
 export default Right;

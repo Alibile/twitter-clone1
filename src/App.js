@@ -1,15 +1,14 @@
 import React from "react";
 import "./App.css";
 import LeftSide from "./Components/LeftSide";
-import Main from "./Components/Main";
 import Right from "./Components/Right";
-
+import Main from "./Components/Main";
 function App() {
   return (
     <div className="App">
       <LeftSide />
-      <Right />
       <Main />
+      <Right />
     </div>
   );
 }
